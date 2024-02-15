@@ -1,0 +1,160 @@
+footer {
+  background-color: white;
+  font-size: 14px;
+  position: relative;
+}
+footer .wrap {
+  
+  display: grid;
+  grid-template-rows: auto 70px auto;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+  row-gap: 20px;
+}
+footer .wrap h1 {
+  
+  grid-column: 1;
+  grid-row: 1 / span4;
+}
+footer .wrap h1 a {
+  
+  font-size: 0;
+  background-image: url(../img/logo-footer-lotte-members.png);
+  width: 145px;
+  height: 48px;
+  background-repeat: no repeat;
+  background-size: contain;
+}
+footer .wrap ul.fnb {
+  
+  grid-column: 2 / span 2;
+  grid-row: 1;
+}
+footer .wrap ul.fnb li {
+  
+}
+footer .wrap ul.fnb li a {
+  
+  padding: 0 20px;
+  line-height: 2;
+  display: block;
+  color: #555;
+  font-size: 14px;
+}
+footer .wrap ul.fnb li a:nth-child(1){
+  padding-left: 0;
+}
+footer .wrap ul.fnb li a:hover {
+  color: #333
+}
+footer .wrap u, footer .wrap .sns {
+  
+  gap: 20px;
+}
+footer .wrap u li, footer .wrap .sns li {
+  
+}
+footer .wrap u li a, footer .wrap .sns li a {
+  
+  font-size: 0;
+}
+footer .wrap u li a, footer .wrap .sns li a i{
+  
+  font-size: 28px;
+  color: #777;
+}
+footer .wrap address {
+  
+  grid-column: 2 / span 3;
+  grid-row: 2;
+  font-size: 14px;
+  color: #555;
+}
+footer .wrap address a {
+  
+}
+footer .wrap > p {
+  
+  font-size: 14px;
+}
+footer .wrap .combobox {
+  
+  grid-column: 3 / span 2;
+  grid-row: 3;
+  gap: 15px;
+}
+footer .wrap .combobox .partner {
+  
+}
+footer .wrap .combobox .partner button {
+  
+  width: 200px;
+  height: 40px;
+  display: block;
+  border: 1px soild #ccc;
+  text-align: 1eft;
+  padding-left: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-image: url(../img/up.png);
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-origin: content-box;
+  border-radius: 10px;
+}
+footer .wrap .combobox .partner dl {
+  
+  width: 200px;
+  height: 40px;
+}
+footer .wrap .combobox .partner dl dt {
+  
+}
+footer .wrap .combobox .partner dl dd {
+  
+}
+footer .wrap .combobox .lang {
+  
+}
+footer .wrap .combobox .lang button {
+  
+  width: 200px;
+  height: 40px;
+  display: block;
+  border: 1px soild #ccc;
+  text-align: 1eft;
+  padding-left: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-image: url(../img/up.png);
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-origin: content-box;
+  animation: none;
+  border-radius: 10px;
+}
+footer .wrap .combobox .lang ul {
+  
+}
+footer .wrap .combobox .lang ul li {
+  
+}
+footer .wrap .combobox .lang ul li a {
+  
+}
+a.top{
+  
+  display: block;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 0 5px #333;
+  border-radius: 50px;
+  position: absolute;
+  right: 275px;
+  top: -80px;
+  right: calc((100% - 1080px) / 2 - 40px);
+  text-align: center;
+  line-height: 40px;
+  background-color: white;
+}
